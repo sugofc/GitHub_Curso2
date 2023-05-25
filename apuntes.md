@@ -47,7 +47,7 @@ ls -al ~/.ssh <!-- Listar claves SSH -->
 cat <nombre> <!-- Leer archivo -->
 ssh -T git@github.com <!-- Verificar la conexion a github -->
 <!--^ Despues de crear un nuevo repositorio -->
-git remote add origin git@github.com:sugofc/curso-git2.git <!-- Comando que te da Git Hub para conectar tu proyecto al repositorio creado -->
+git remote add origin git@github.com:<repositorio> <!-- Comando que te da Git Hub para conectar tu proyecto al repositorio creado (repositorio ej: sugofc/curso-git2.git)-->
 git push -u origin main <!-- Crea el primer push para subir tu proyecto al repositorio -->
 
 <!--~ --------------------------------------------------------------------------------- -->
@@ -56,3 +56,6 @@ git push -u origin main <!-- Crea el primer push para subir tu proyecto al repos
 git push <!-- Sube tu proyecto al repositorio -->
 git fetch <!-- Descarga en local el historial de cambios, pero sin descargarse los cambios -->
 git pull <!-- Descarga en local el historial de cambios y tambien se descarga los cambios -->
+git clone <repositorio> <!-- Debes irte a la web, en la parte de "<> Code", saldra el codigo SSH para clonar el repositorio (repositorio ej: git@github.com:sugofc/curso-git2.git) -->
+<!--  -->
+<!--  -->
