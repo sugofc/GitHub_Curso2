@@ -59,4 +59,3 @@ git pull <!-- Descarga en local el historial de cambios y tambien se descarga lo
 git clone <repositorio> <!-- Debes irte a la web, en la parte de "<> Code", saldra el codigo SSH para clonar el repositorio (repositorio ej: git@github.com:sugofc/curso-git2.git) -->
 fork <!--! Para crear un git fork, debes navegar al proyecto y crear un nuevo Fork, sirve para contribuir con cambios al repositorio original -->
 pull request <!--! Luego de realizar un commit y quieres enviarlo al repositorio original (que tenias antes con fork), debes mandar un Pull Request (PR), diciendo cual es el cambio. -->
-<!--  -->
